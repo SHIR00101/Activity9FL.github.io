@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="lrt">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      *
+{
+  margin: 0;
+  padding: 0;
+}
+.navbar
+{
+  text-align: right;
+  padding: 14px 16px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.actbar
+{
+  text-align: left;
+  padding: 14px 16px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+  position: fixed;
+  width: 100%;
+}
+ .logo
+{
+  height: 70px;
+  width: 90px;
+  position: fixed;
+  z-index: 4;
+}
+.navbar li
+{
+  text-align: right;
+  padding: 14px 16px;
+  display: inline;
+  padding-left: 50px;
+  padding-right: 5em;
+}
+.navbar a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.navbar a:hover
+{
+  color: #3DD1E7;
+}
+.home
+{
+  padding-top: 13em;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  height: 65vh;
+}
+.home h1
+{
+  text-align: center;
+  font-size: 56px;
+  font-family: cursive;
+}
+.home h3
+{
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+}
+.button-53 {
+  background-color: #3DD1E7;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: cursive;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  margin-left: 23em;  
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+.diagonal-box {
+  background-color: #1A3263;
+  transform: skewY(-5deg);
+  height: 50em;
+  position: relative;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 88px 0px 148px 0px;
+  z-index: -1;
+} 
+.diagonal-box-content { 	
+  transform: skewY(5deg);
+  width: 85%;
+}
+.main-title{
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+.author-img{
+  height: 500px;
+  width: 400px;
+  
+}
+.diagonal-box-content-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.diagonal-paragraph{
+  margin-top: 5em;
+  text-align: center;
+  line-height: 1.6rem;
+  margin-right: 3em;
+  margin-left: 3em;
+  letter-spacing: .75px;
+  font-size: 15px;
+}
+.upper-title{
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fullpage
+{
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+.activity h1
+{
+  font-family: cursive;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.activity h2
+{
+  font-family: cursive;
+  padding-top: 3em;
+  text-align: center;
+}
+.activity video
+{
+  padding-left: 21em;
+  height: 500px;
+  width: 700px;
+}
+.activity img
+{
+  padding-top: 2em;
+  height: 400px;
+  width: 400px;
+  padding-left: 30em;
+}
+.activity audio
+{
+  padding-top: 2em;
+  padding-left: 30em;
+}
+.act1
+{
+  padding-top: 4em;
+}
+.act2
+{
+  padding-top: 4em;
+}
+.act3
+{
+  padding-top: 4em;
+}
+.act4
+{
+  padding-top: 4em;
+}
+.act5
+{
+  padding-top: 4em;
+}
+.act6
+{
+  padding-top: 4em;
+}
+.act7
+{
+  padding-top: 4em;
+}
+.act8
+{
+  padding-top: 4em;
+}
+.nav1 li {
+  text-align: right;
+  position: relative;
+}
+
+.nav1 li a {
+  text-align: right;
+  padding-top: 0;
+  text-decoration: none;
+  width: 200px;
+}
+
+.nav1 li li a {
+  font-size: 17px;
+}
+
+.nav1 ul {
+  position: absolute;
+  padding-top: 1em;
+  left: 0;
+  display: none;
+}
+
+.nav1 li:hover ul ul {
+  display: none;
+}
+.nav1 li:hover ul {
+  display: block;
+}
+
+.nav1 li li:hover ul {
+  display: block;
+  margin-left: 200px;
+  margin-top: -35px;
+}
+    </style>
+  </head>
+  <body>
+    <a href="#HOME"><img src="https://drive.google.com/uc?export=view&id=11cryUO-a81R2xAEwUEmgAXEwdsnUh7KU" class="logo"></a>
+    <div class="navbar">
+      <ul>
+        <li><a href='#HOME'>Home</a></li>
+        <li><a href='#AboutMe'>About Me</a></li>
+        <li class="activity"><a href="#">Project</a></li>
+      </ul>
+    </div>
+    <a name = "HOME"></a>
+    <div class="home">
+      <h3>Hello I'm</h3>
+      <h1>Andrade, Billy L.</h1>
+      <button class="button-53" role="button" onclick="document.location='#activity'">See my works</button>
+    </div>
+    <a name = "AboutMe"></a>
+        <div class="diagonal-box">
+            <div class="diagonal-box-content"> 
+                <div class="diagonal-box-content-row">
+                    <div class="diagonal-box-column">
+                        <h6 class="upper-title">ABOUT ME</h6>
+                        <h1 class="main-title">Andrade, Billy L.</h1>
+                        <p class="diagonal-paragraph">I'm 21 year's Old and I live in #27 Sampaloc Street, 
+                          Poblacion 2, Marilao, Bulacan. I love restoring things and my hobby is watching anime. 
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a name = "activity"></a>
+        <div class="activity">
+            <h1>My activities</h1>
+              <a name ="act1"></a>
+              <div class="act1">
+                <h2>Activity 1</h2>
+                <video controls>
+                <source src="https://drive.google.com/uc?export=view&id=1_RnUmgMjcB8hf1VM2OYeJn2iLMMOy3cV" type="video/mp4">
+                </video>
+              </div>
+                <a name ="act2"></a>
+                <div class="act2">
+                    <h2>Activity 2</h2>
+                    <audio controls>
+                    <source src="https://drive.google.com/uc?export=view&id=1ChwVgAR3ufWyHnhvAIatFn9Iih9-fDrc" type="audio/mp3">
+                    </audio>
+                </div>
+                <a name ="act3"></a>
+                <div class="act3">
+                    <h2>Activity 3</h2>
+                    <video  controls>
+                    <source src="https://drive.google.com/uc?export=view&id=1I4zOZ1NWRRq-MLZD3tlp78E4MaOkKkZ8" type="video/mp4">
+                    </video>
+                </div>
+                <a name ="act4"></a>
+                <div class="act4">
+                    <h2>Activity 4</h2>
+                    <video controls>
+                    <source src="https://drive.google.com/uc?export=view&id=19nmLGEKPo0eUDtNUhZC0z9ZikL5Rv8H7" type="video/mp4">
+                    </video>
+                </div>
+                <a name ="act5"></a>
+                <div class="act5">
+                    <h2>Activity 5</h2>
+                    <video  controls>
+                    <source src="https://drive.google.com/uc?export=view&id=1xOSIypdXvBT9lV4Ots8hOy_OEmdeMr4c" type="video/mp4">
+                    </video>
+                </div>
+                <a name ="act6"></a>
+                <div class="act6">
+                    <h2>Activity 6</h2>
+                    <img src="https://drive.google.com/uc?export=view&id=1TFx6JtVUebVmJhDkQ_uPckJWtVWmqdPd">
+                </div>
+                <a name ="act7"></a>
+                <div class="act7">
+                    <h2>Activity 7</h2>
+                    <img src="https://drive.google.com/uc?export=view&id=1fyW9BE-sPz4E5YBo6r2r1R97hpkbqbJN">
+                </div>
+                <a name ="act8"></a>
+                <div class="act8">
+                    <h2>Activity 8</h2>
+                    <video controls>
+                    <source src="https://drive.google.com/uc?export=view&id=1zkDcVejBJbGFwyTmHjD3cb8VBv3aCNRy" type="video/mp4">
+                    </video>
+                </div>
+        </div>
+  </body>
+</html>
