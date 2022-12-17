@@ -194,6 +194,18 @@
   height: 500px;
   width: 700px;
 }
+.project video
+{
+  padding-left: 21em;
+  height: 500px;
+  width: 700px;
+}
+.project h2
+{
+  font-family: cursive;
+  padding-top: 3em;
+  text-align: center;
+}
 .activity img
 {
   padding-top: 2em;
