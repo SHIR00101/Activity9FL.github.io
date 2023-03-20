@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" dir="lrt">
+<html lang="eng">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>E-Portfolio for Foreign Language</title>
   </head>
   <body>
-    <a href="#HOME"><img src="logo.png" class="logo"></a>
-    <div class="navbar">
-      <ul>
-        <li><a href='#HOME'>Home</a></li>
-        <li><a href='#AboutMe'>About Me</a></li>
-        <li class="activity"><a href="#project">Project</a></li>
-      </ul>
-    </div>
-    <a name = "HOME"></a>
-    <div class="home">
-      <h3>Nǐ hǎo, wǒ jiào</h3>
-      <h1>Andrade, Billy L.</h1>
-      <button class="button-53" role="button" onclick="document.location='activity.html'">See my works</button>
-    </div>
-    <a name = "AboutMe"></a>
-        <div class="diagonal-box">
-            <div class="diagonal-box-content"> 
-                <div class="diagonal-box-content-row">
-                    <div class="diagonal-box-column">
-                        <h6 class="upper-title">ABOUT ME</h6>
-                        <h1 class="main-title">Andrade, Billy L.</h1>
-                        <p class="diagonal-paragraph">Wǒ jīnnián 21 suì, zhù zài#27 Sampaloc Street, Poblacion 2, Marilao, Bulacan. Wǒ xǐhuān xiūfù dōngxī, wǒ de àihào shì kàn dòngmàn. 
-                          </p>
-                    </div>
-                </div>
-            </div>
+    <div class="container">
+        <nav>
+            <div class="logo">FL 302</div>
+            <ul class=" navItem">
+              <li><a href = "index.html">Home</a></li>
+              <li><a href = "fl301.html">FL 301 Activities and Project</a></li>
+              <li><a href = "fl302.html">FL 302 Activities and Project</a></li>
+            </ul>
+        </nav>
+
+        <div class="myDetails">
+          <h1>Wǒ shì Billy L. <span>Andrade</span></h1>
+          <p>Wǒ jīnnián 21 suì, zhù zài#27 Sampaloc Street, 
+            <br>Poblacion 2, Marilao, Bulacan. <br>
+            Wǒ xǐhuān xiūfù dōngxī, wǒ de àihào shì kàn dòngmàn. </p>
+            <a href="fl301.html">My activities</a>
         </div>
-        <a name = "project"></a>
-        <div class="project">
-            <h2>PROJECT IN Foreign Language</h2>
-            <video controls>
-            <source src="./activity/PROJECT IN FL.mp4" type="video/mp4">
-            </video>
+        <div class="myImage">
+          <img src="pictures/1.png" class="shape">
+          <img src="pictures/myPhoto.png" class="myPhoto">
         </div>
   </body>
 </html>
